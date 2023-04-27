@@ -1,17 +1,17 @@
 import React from "react";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Home from "./Home";
-import Navbar from "./Navbar";
+import CustomNavbar from "./Navbar";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
+    <div>
+      <CustomNavbar />
       <Routes>
-        <Route exact path="/" component={Home} />
+        <Route path="/" element={<Home />} />
         {/* Add more routes here for other pages */}
       </Routes>
-    </Router>
+    </div>
   );
 }
 

@@ -1,0 +1,92 @@
+.full-container {
+  display: flex;
+}
+
+.profpic {
+  width: 60%;
+  box-shadow: 9px 9px 5px 0px rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 9px 9px 5px 0px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 9px 9px 5px 0px rgba(0, 0, 0, 0.14);
+}
+
+.half1 {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.card > h1 {
+  margin-top: 30px;
+  font-family: "Roboto";
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.card > h2 {
+  margin-top: 0;
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.basic-content > p {
+  margin-bottom: 30px;
+}
+
+.basic-content > p > a {
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.basic-content > p > a:hover {
+  color: rgba(33, 2, 90, 0.363);
+  transition: ease-in-out 0.3s;
+}
+
+.icon {
+  color: rgba(92, 15, 136, 0.61);
+  font-size: 25px;
+}
+
+.half2 {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.dl {
+  font-size: 50px;
+  color: rgba(92, 15, 136, 0.61);
+}
+
+.cv > h1 {
+  font-weight: 300;
+}
+
+.cv > a {
+  text-decoration: none;
+
+  color: rgba(92, 15, 136, 0.61);
+}
+
+.career > h3 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.career > h3 > p {
+  font-weight: 300;
+  font-size: 13px;
+  color: rgba(85, 0, 155, 0.473);
+}
+
+.career > h3 > p > a {
+  font-weight: 300;
+  font-size: 13px;
+  color: rgba(85, 0, 155, 0.377);
+}

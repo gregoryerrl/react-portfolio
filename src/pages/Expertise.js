@@ -1,9 +1,10 @@
 import React from "react";
+import "../style.css";
 
-function Home() {
+function Expertise() {
   return (
-    <div className="container">
-      <h1>Welcome to my website</h1>
+    <div className="page mid" id="expertise">
+      <h1>Expertise</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus
         ipsum vel lorem ullamcorper, quis feugiat massa bibendum. Vivamus eget
@@ -19,4 +20,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Expertise;

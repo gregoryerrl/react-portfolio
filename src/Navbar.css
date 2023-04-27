@@ -1,34 +1,89 @@
-.navbar {
+.navi {
   position: fixed;
-  top: -60px;
-  left: 0;
+  width: 100vw;
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  bottom: 0;
   right: 0;
   z-index: 999;
-  transition: top 0.3s ease-in-out;
-  margin-top: 0;
+  max-width: auto;
 }
 
 .navbar.show {
-  top: -10px;
+  transform: translateX(0px);
+
+  transition: transform 0.5s ease-out;
 }
 
 .navbar-brand {
   font-size: 1.5rem;
-  color: #fff;
+  color: #fff !important;
 }
 
 .container-fluid {
-  padding: 1rem;
-  background-color: #333;
+  right: 0;
+  width: 200px !important;
+  display: inline-block;
+  height: 70vh;
+  padding: 0 !important;
+  background-color: rgb(92, 15, 136);
+  color: hsl(279, 100%, 91%) !important;
+  overflow: hidden;
+
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 53px 15px 23px 0px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 53px 15px 23px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 53px 15px 23px 0px rgba(0, 0, 0, 0.26);
 }
 
 .hide {
-  top: -60px;
+  transform: translateX(70%);
+  transition: transform 0.5s ease-out;
 }
 
 @media (max-width: 991.98px) {
   .container-fluid {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
+}
+
+.navbar-nav .nav-link.active {
+  text-decoration: underline;
+}
+
+.active {
+  width: 100%;
+  background-color: #896fbc;
+}
+
+ul {
+  height: 100%;
+  width: 100%;
+  font-size: 0.9rem;
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+li {
+  padding-left: 10px !important;
+  width: 100%;
+  cursor: pointer;
+  padding: 35px 0;
+}
+
+li:hover {
+  background-color: #5c038c;
+  transition: ease-in-out 0.3s;
+  color: #ffffff !important;
+}
+
+.icon {
+  color: hsl(279, 100%, 80%);
+  width: 18px;
 }

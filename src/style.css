@@ -1,0 +1,26 @@
+.page {
+  max-width: 85vw;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.mid {
+  padding-top: 50px;
+}
+
+.content {
+  width: 100vw;
+  position: absolute;
+  display: block;
+  top: 50px;
+  justify-items: center;
+}
+
+.body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.sidebar {
+  position: fixed;
+}
